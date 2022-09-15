@@ -1,0 +1,41 @@
+body {
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Miryo, arial, sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+body {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact-pc {
+    text-align: right;
+    font-size: 14px;
+    padding-top: 50px;
+}
+#contact-pc > a {
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  #contact-pc > a:link {
+    color: #0d0d0d;
+  }
+  #contact-pc > a:visited {
+    color: #0d0d0d;
+  }
+  #contact-pc > a:hover {
+    color: #0d0d0d;
+    text-decoration: underline;
+  }
+  #contact-pc > a:active {
+    color: #0d0d0d;
+  }
