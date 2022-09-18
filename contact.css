@@ -15,6 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    border: double 3px #64a2f1;
 }
 
 #contact-pc {
@@ -42,20 +43,23 @@ header {
   
   /* お問い合わせ */
   #contact {
-    margin: 80px auto 80px auto;
+    margin: 80px auto 80px 20px;
+    border: double 3px #64a2f1;
   }
 
 /* 外枠 */
 #contact > form > div {
-  margin: 25px auto 25px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 20px;
+  
+
 }
 
 /* 左列の見出し */
 .contact-heading {
+  margin: 0 0 0 20px;
   width: 240px;  
   align-self: center;
 }
@@ -95,6 +99,14 @@ header {
   height: 200px;
 }
 
+/* 送信ボタン */
 .submit {
-  text-align: center; 
+  margin: 20px 0px 0px 300px; 
+}
+
+/* フッター */
+footer {
+  background-color: #64a2f1;
+  text-align: center;
+  padding: 80px 80px 30px 80px;
 }

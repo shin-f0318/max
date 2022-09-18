@@ -101,9 +101,9 @@ body {
     margin: 80px auto 80px auto;
     width: 100%;
   }
-
+  
   #mission-flex {
-    width:100px;
+    width: 100%;
     display: flex;
   }
 
@@ -119,3 +119,11 @@ body {
   #food {
     margin-top: 50px;
   }
+
+  /* フッター */
+  footer {
+    background-color: #64a2f1;
+    text-align: center;
+    padding: 80px 80px 30px 80px;
+  }
+  
