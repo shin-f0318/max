@@ -19,9 +19,15 @@ body {
   
   /* ヘッダー */
   header {
+    width:100%;
+    padding:0 2%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
+
+  /* ロゴ */
+  
   
     /* ナビゲーションのレイアウト */
     #nav-pc {
@@ -111,13 +117,12 @@ body {
     width: 50%;
     margin: 20px;
   }
-
-  #mission-photo {
+  .favorite-photo {
+    display: inline-block; /* 並んだ写真の幅を合わせる */
+    height: 80%;
     width: 100%;
-  }
-
-  #food {
-    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 20px;
   }
 
   /* フッター */
